@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="Secao10"/>
 	<classpathentry kind="src" path="Secao11"/>
 	<classpathentry kind="src" path="Secao12"/>
+	<classpathentry kind="src" path="Secao13"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
