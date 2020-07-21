@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import entities.ProductOrder;
 
 public class Program2 {
 
@@ -15,13 +15,13 @@ public class Program2 {
 		double sum = 0.0;
 		
 		int n = sc.nextInt();
-		Product[] vect = new Product[n];
+		ProductOrder[] vect = new ProductOrder[n];
 		
 		for(int i=0; i < vect.length; i++) {
 			sc.nextLine();
 			String name = sc.nextLine();
 			double price = sc.nextDouble();
-			vect[i] = new Product(name, price);
+			vect[i] = new ProductOrder(name, price);
 			sum += vect[i].getPrice();
 		}
 		
