@@ -1,5 +1,6 @@
 package application;
 
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -24,7 +25,7 @@ public class Vector {
 		
 		System.out.printf("AVERAGE HEIGHT = %.2f", average);
 		
-
+		sc.close();
 	}
 
 }

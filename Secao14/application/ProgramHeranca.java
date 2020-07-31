@@ -8,13 +8,13 @@ public class ProgramHeranca {
 
 	public static void main(String[] args) {
 
-		Account acc = new Account(1001, "Alex", 0.0);
-		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
+		//Account acc = new Account(1001, "Alex", 0.0);
+		//BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 		
 		//UPCASTING é pegar um objeto do tipo BusinessAcount(subclasse)
 		//e atribui-lo para uma variavel do tipo Account(superclasse)
-		Account acc1 = bacc;
-		Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
+		//Account acc1 = bacc;
+		//Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
 		Account acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
 		
 		//DOWNCASTING é converter um objeto da 
