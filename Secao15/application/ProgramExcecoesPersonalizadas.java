@@ -23,6 +23,7 @@ public class ProgramExcecoesPersonalizadas {
 		System.out.print("Check-out date (dd/MM/yyyy):");
 		Date checkout = sdf.parse(sc.next());
 		
+		//Solução ruim - logica de validação da reserva esta no programa principal e não na classe reserva.
 		if(!checkout.after(checkin)) {
 			System.out.println("Error in reservation: Check-out date must be after check-in date");
 		}
